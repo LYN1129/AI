@@ -146,7 +146,8 @@ if __name__ == '__main__':
         os.makedirs(output_dir)
     if not os.path.exists(output_speed_dir):
         os.makedirs(output_speed_dir)
-
+    if not os.path.exists(output_rewards_dir):
+        os.makedirs(output_rewards_dir)
     total_steps = 0
 
     for frame in range(10000):  # Loop for each frame
